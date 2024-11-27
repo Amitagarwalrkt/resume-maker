@@ -1,5 +1,5 @@
 import { Box, chakra, Container, Stack, Text, Image, useColorModeValue, VisuallyHidden, } from '@chakra-ui/react';
-import { FaInstagram, FaSnapchat, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import logo from './../../Assets/logo.png';
 
 
@@ -46,7 +46,7 @@ export default function Footer() {
                     <SocialButton label={'Github'} href={'https://github.com/amitagarwalrkt'}>
                         <FaGithub />
                     </SocialButton>
-                    <SocialButton label={'Snapchat'} href={'https://wa.me/919756775633'}>
+                    <SocialButton label={'Whatsapp'} href={'https://wa.me/919756775633'}>
                         <FaWhatsapp />
                     </SocialButton>
                     <SocialButton label={'Instagram'} href={'https://instagram.com/am.it_agarwal'}>
